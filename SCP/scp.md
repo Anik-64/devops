@@ -16,5 +16,5 @@ It is a command-line tool used for securely transferring files between a local a
    Receive remote file 
    ``
    scp anik@192.168.40.128:/home/anik/Documents/remote_file.txt /tmp/
-   ```
+   ``
 
