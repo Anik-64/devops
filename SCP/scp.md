@@ -18,3 +18,18 @@ It is a command-line tool used for securely transferring files between a local a
    scp anik@192.168.40.128:/home/anik/Documents/remote_file.txt /tmp/
    ```
 
+2. Windows to linnux server
+
+   Send local file to remote
+    ```
+    scp -v C:\Users\HP\Documents\local_windows_file.pdf anik@192.168.40.128:/home/anik/Documents/
+    ```
+   
+   ``
+   -v = verbose, For folder use -r 
+   ``
+
+   Receive remote file
+    ```
+    scp -v anik@192.168.40.128:/home/anik/Documents/remote_ubuntu.txt C:\Users\HP\Documents\
+    ```
