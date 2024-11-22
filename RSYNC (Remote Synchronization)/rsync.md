@@ -1,6 +1,6 @@
 ### rsync
 
-Feature: Optimize file transfers by sending only the changes made and ensure that file ``Permissions``, ``Ownership``, and ``Timestamps`` are preserved.
+<ins>Feature:</ins> Optimize file transfers by sending only the changes made and ensure that file ``Permissions``, ``Ownership``, and ``Timestamps`` are preserved.
 
 ``rsync [options] source destination``
 
