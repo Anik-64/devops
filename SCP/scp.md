@@ -9,11 +9,9 @@ It is a command-line tool used for securely transferring files between a local a
     scp file1.txt anik@192.168.40.128:/home/anik/Documents/
     ```
 
-   file1.txt -> Local server file
-   
-   anik@192.168.40.128 -> username@ip (remote server)
-   
-   /home/anik/Documents/ -> Directory for remote server where the file1.txt is copied
+   ``
+   file1.txt -> Local server file, anik@192.168.40.128 -> username@ip (remote server), /home/anik/Documents/ -> Directory for remote server where the file1.txt is copied
+   ``
    
    Receive remote file 
    ```
