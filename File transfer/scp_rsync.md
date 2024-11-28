@@ -91,6 +91,6 @@ Syntax: ``rsync [options] source user@remote_host:/destination_path``
    
 Upper command will create a backup file but it has disadvantages. When you will make some changes in that file locally then again run the upper command it will replace the backup file in remote, so you cann't track what is changed. Below I am providing a special command that helps you on inductry to track backup file. First create a backup directory in your remote server then assign the directory in the ``--backup-dir``. When you run the command it will create a backup file every time with file name format date and time. This will help to find out only which is changed.
 
-    ```
+    
     rsync -vzb --progress --backup-dir=/tmp/rsync/archive/$(date +%Y%m%d-%H%M%S) file.txt anik@192.168.40.128:/home/anik/Documents/
-    ```
+    
