@@ -47,7 +47,7 @@ Syntax: ``scp source_file user@remote_host:/destination_path``
 
 ### RSYNC (Remote Synchronization)
 
-rsync is a versatile tool for efficiently transferring and synchronizing files between two locations. Unlike SCP, rsync only transfers the differences between the source and the destination, making it highly efficient, especially for large datasets.
+RSYNC is a versatile tool for efficiently transferring and synchronizing files between two locations. Unlike SCP, rsync only transfers the differences between the source and the destination, making it highly efficient, especially for large datasets.
 
 - Features:
   - Incremental transfers: Only changes in files are transferred, saving bandwidth and time.
