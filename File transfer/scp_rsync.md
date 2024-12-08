@@ -43,7 +43,7 @@ Syntax: ``scp source_file user@remote_host:/destination_path``
     scp -v anik@192.168.40.128:/home/anik/Documents/remote_ubuntu.txt C:\Users\HP\Documents\
     ```
 
-###
+
 
 ### RSYNC (Remote Synchronization)
 
