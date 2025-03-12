@@ -38,6 +38,11 @@ Syntax: ``scp source_file user@remote_host:/destination_path``
     scp -v C:\Users\HP\Documents\local_windows_file.pdf anik@192.168.40.128:/home/anik/Documents/
     ```
 
+   Send local direcroty to remote
+    ```
+    scp -r D:\xampp\htdocs\Real-Time-Markdown-Editor-with-Node.js anik@192.168.40.128:/home/anik/Documents/markdownapp/
+    ```
+
    Receive remote file
     ```
     scp -v anik@192.168.40.128:/home/anik/Documents/remote_ubuntu.txt C:\Users\HP\Documents\
