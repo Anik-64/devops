@@ -51,17 +51,13 @@ eksctl create cluster --name beekeeper-cls --region us-east-1 --node-type t2.med
 eksctl create cluster --name beekeeper-cls --region ap-south-1 --node-type t2.medium  --zones ap-south-1a,ap-south-1b
 `
 
-## Note: Cluster creation will take 5 to 10 mins of time (we have to wait). After cluster created we can check nodes using below command.
+** Note: Cluster creation will take 5 to 10 mins of time (we have to wait). After cluster created we can check nodes using below command.
 
 `
  kubectl get nodes  
 `
-
-### Note: We should be able to see EKS cluster nodes here. ##
-
-### We are done with our Setup ###
 	
-## Step - 4 : After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing ##
+## Step - 4 : After practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing 
 
 ```
 eksctl delete cluster --name beekeeper-cls --region ap-south-1
