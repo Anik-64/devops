@@ -1,0 +1,2 @@
+# Check the link please
+https://scribehow.com/viewer/Create_and_Configure_an_S3_Bucket_on_AWS_And_host_a_static_page__Q5Gpo8MbSJK9E1T3qjs3ug
